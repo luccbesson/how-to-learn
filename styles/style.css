@@ -322,6 +322,7 @@
 
 .footer__author {
   display: flex;
+  margin-top: 0;
   margin-bottom: 0;
   padding-bottom: 18px;
   padding-top: 18px;
