@@ -9,6 +9,8 @@
   font-family: 'Helvetica Neue', Arial, sans-serif;
 }
 
+.content {}
+
 .header {
   display: flex;
   position: relative;
@@ -83,7 +85,6 @@
 }
 
 .logo_place_footer {
-  display: flex;
   background-image: url(../images/logo_place_footer.svg);
 }
 
@@ -212,7 +213,7 @@
   flex-direction: column;
   position: relative;
   background-color:#f2f2f2;
-  height: 890px;
+  min-height: 890px;
   box-sizing: border-box;
 }
 
@@ -321,6 +322,7 @@
 
 .footer__author {
   display: flex;
+  margin-bottom: 0;
   padding-bottom: 18px;
   padding-top: 18px;
   line-height: 25px;
