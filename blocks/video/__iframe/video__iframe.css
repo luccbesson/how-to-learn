@@ -2,8 +2,10 @@
     width: 515px;
     height: 316px;
     margin-right: 20px;
+    margin-bottom: 0;
+    overflow: visible;
 }
 
-.video__iframe.video_iframe::last-child {
+.video__iframe:last-child{
   margin-right: 0;
 }
